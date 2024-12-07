@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #222;
+    text-align: center;
+    align-items: center;
+
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+}
+.weather_icon{
+    width: 170px;
+    margin-top: 30px;
+    box-shadow: #222;
+}
+.temprature {
+    font-size: 80px;
+    /* font-weight: 500; */
+}
+.input{
+    color: #00feba;
+
+}
+.button {
+
+ color: #0b3bea00;
+ background-color: #0b3bea00 ;
+ size: 17px;
+
+}
